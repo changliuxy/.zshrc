@@ -25,7 +25,7 @@ zstyle ':completion:*' rehash true
 HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.histfile
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
